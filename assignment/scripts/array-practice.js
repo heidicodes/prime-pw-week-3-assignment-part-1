@@ -99,10 +99,13 @@ console.log('The updated array is now:', favoriteFoods); // logs new array
 favoriteFoods.sort(); // sorting first in order to reverse sort next
 console.log('My favorite foods reverse sorted are', favoriteFoods.reverse());
     // sorts items in reverse alphabetical order
-    
+
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
+let favoriteFoodsStr = favoriteFoods.join(' and '); // Using array method 'join' to convert to string
+    // Using "and" as the separator argument for method; default is comma
+console.log('Array is now a string of items:', favoriteFoodsStr); // logs favorite foods as string
 
 // 4.h (STRETCH) TODO: Make a new array that combines 
 //     the favorite foods array with the animals array.
