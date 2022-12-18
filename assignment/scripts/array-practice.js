@@ -112,3 +112,8 @@ console.log('Array is now a string of items:', favoriteFoodsStr); // logs favori
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+
+let favoritesCombined = favoriteFoods.concat(animalArray); 
+    // declares new array and stores the values of both, or combines them
+console.log('The combined arrays return these items:', favoritesCombined);
+    // logs the combined arrays
