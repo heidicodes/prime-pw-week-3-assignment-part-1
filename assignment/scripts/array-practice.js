@@ -86,6 +86,12 @@ console.log('The foods are now', favoriteFoods);
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
+favoriteFoods[1] = 'bananas'; // replacing second item by using it's index
+console.log('The updated array is now:', favoriteFoods); // logs new array
+// Two ways to log the updated item by index:
+    // console.log(`Second food is now: ${favoriteFoods[1]}`); 
+    // console.log('Second food is now', favoriteFoods[1]);
+
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
