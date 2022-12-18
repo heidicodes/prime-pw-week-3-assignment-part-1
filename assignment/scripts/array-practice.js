@@ -88,7 +88,7 @@ console.log('The foods are now', favoriteFoods);
 //      Then log the updated array.
 favoriteFoods[1] = 'bananas'; // replacing second item by using it's index
 console.log('The updated array is now:', favoriteFoods); // logs new array
-// Two ways to log the updated item by index:
+    // Two ways to log the updated item by index:
     // console.log(`Second food is now: ${favoriteFoods[1]}`); 
     // console.log('Second food is now', favoriteFoods[1]);
 
@@ -96,6 +96,10 @@ console.log('The updated array is now:', favoriteFoods); // logs new array
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
 
+favoriteFoods.sort(); // sorting first in order to reverse sort next
+console.log('My favorite foods reverse sorted are', favoriteFoods.reverse());
+    // sorts items in reverse alphabetical order
+    
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
